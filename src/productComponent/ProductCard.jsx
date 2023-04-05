@@ -37,7 +37,7 @@ const ProductCard = (product) => {
         <div className="text-center text-color">
           <p>
             <span>
-              <h4>Price : &#8377;{product.item.price}</h4>
+              <h4>Price : &#165;{product.item.price}</h4>
             </span>
           </p>
         </div>
@@ -47,6 +47,7 @@ const ProductCard = (product) => {
             className="btn bg-color custom-bg-text"
           >
             Add to Cart
+            {/* Remove */}
           </Link>
 
           <p class="text-color">

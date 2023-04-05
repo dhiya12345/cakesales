@@ -48,6 +48,16 @@ const AdminHeader = () => {
 
       <li class="nav-item">
         <Link
+          to="/user/admin/allorder"
+          class="nav-link active"
+          aria-current="page"
+        >
+          <b className="text-color">All customers</b>
+        </Link>
+      </li>
+
+      <li class="nav-item">
+        <Link
           to="/user/admin/assigndelivery"
           class="nav-link active"
           aria-current="page"

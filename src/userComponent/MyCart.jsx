@@ -123,7 +123,7 @@ const MyCart = () => {
                 textAlign: "right",
               }}
             >
-              <h5>Total Price: &#8377; {totatPrice}/-</h5>
+              <h5>Total Price: &#165; {totatPrice}/-</h5>
             </div>
 
             <div className="float-end me-2">

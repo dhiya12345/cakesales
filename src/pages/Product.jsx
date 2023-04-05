@@ -140,7 +140,7 @@ const Product = () => {
               <div className="text-center text-color">
                 <p>
                   <span>
-                    <h4>Price : &#8377;{product.price}</h4>
+                    <h4>Price : &#165;{product.price}</h4>
                   </span>
                 </p>
               </div>
@@ -163,6 +163,7 @@ const Product = () => {
                         type="submit"
                         className="btn bg-color custom-bg-text mb-3"
                         value="Add to Cart"
+                        // value="Remove"
                       />
                       <ToastContainer />
                     </div>

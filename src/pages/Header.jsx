@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import RoleNav from "./RoleNav";
-import logo from "../images/e_logo.png";
+import logo from "../images/cake logo.png";
 
 const Header = () => {
   return (
@@ -16,7 +16,7 @@ const Header = () => {
           />
           <Link to="/" class="navbar-brand">
             <i>
-              <b className="text-color">Online Shopping</b>
+              <b className="text-color">Dhiya Cake</b>
             </i>
           </Link>
 

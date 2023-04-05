@@ -88,7 +88,7 @@ const AssignDeliveryToOrders = () => {
         }}
       >
         <div className="card-header text-center bg-color custom-bg-text">
-          <h4>Searh Customer Orders</h4>
+          <h4>Search Customer Orders</h4>
         </div>
         <div
           className="card-body"
